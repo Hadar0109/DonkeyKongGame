@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\entities\barrel.cpp" />
+    <ClCompile Include="src\render\BoardRenderer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\ClimbingGhost.cpp" />
+    <ClCompile Include="src\core\board.cpp" />
+    <ClCompile Include="src\io\BoardRepository.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\EntityGhost.cpp" />
+    <ClCompile Include="src\core\game.cpp" />
+    <ClCompile Include="src\modes\gameModes.cpp" />
+    <ClCompile Include="src\entities\ghost.cpp" />
+    <ClCompile Include="src\render\hudRenderer.cpp" />
+    <ClCompile Include="src\app\main.cpp" />
+    <ClCompile Include="src\entities\mario.cpp" />
+    <ClCompile Include="src\render\menu.cpp" />
+    <ClCompile Include="src\render\ResultErrorPresenter.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\results.cpp" />
+    <ClCompile Include="src\io\steps.cpp" />
+    <ClCompile Include="src\render\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\barrel.h" />
+    <ClInclude Include="include\BoardRenderer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoardRepository.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClimbingGhost.h" />
+    <ClInclude Include="include\board.h" />
+    <ClInclude Include="include\EntityGhost.h" />
+    <ClInclude Include="include\game.h" />
+    <ClInclude Include="include\gameConfig.h" />
+    <ClInclude Include="include\gameMode.h" />
+    <ClInclude Include="include\gameModes.h" />
+    <ClInclude Include="include\ghost.h" />
+    <ClInclude Include="include\hudRenderer.h" />
+    <ClInclude Include="include\mario.h" />
+    <ClInclude Include="include\menu.h" />
+    <ClInclude Include="include\point.h" />
+    <ClInclude Include="include\ResultErrorPresenter.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\results.h" />
+    <ClInclude Include="include\steps.h" />
+    <ClInclude Include="include\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{edb1cea1-b10a-4bd1-a22e-2c4717736ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{e1e14d1b-5d8b-4b0b-a7e1-23d0ccf7f004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{d5f0d17b-2e74-4d4b-a9b9-b3fa0d0de41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{7a4c5b11-7748-4e69-9c58-53c2df8e89e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{bb2fcdd8-7c6c-4e36-9f0e-4a7cc7c9a8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modes">
+      <UniqueIdentifier>{f3b4d8c0-6e05-4e6e-8e7b-0c3c7e05f9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{a0e3b2a2-8b26-4b6a-8d69-bad4bcb6b9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Legacy">
+      <UniqueIdentifier>{d03b8a51-7ad2-48df-a3b3-55d86b3b1bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96536060-0fdc-4ff7-92ef-27af55167235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{0d21dd2e-8d5f-4cf9-9c09-8bfba4d2d274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{4cbf2f3e-9a2f-4e59-b2e6-4d97f3f0b9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{06aefb47-1d88-4a05-9fd8-1b0b2c7d2a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{c3e4c5c8-51e3-4f6b-b30c-4fef5a44bb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modes">
+      <UniqueIdentifier>{5a3fb3dd-28cc-4ac8-b8d0-8c65c2c2e9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{9cc00dbe-8c4f-4b9d-9b62-3f4b47d8218f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Legacy">
+      <UniqueIdentifier>{4f1cbd3e-5f7c-4f2a-9d0e-6d3b7d0e0a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

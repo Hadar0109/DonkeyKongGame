@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+Win32/
+bin/
+obj/
+
+# MSBuild/VS intermediates
+*.tlog
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.log
+*.pch
+*.ipch
+
+# OS / tooling
+Thumbs.db
+Desktop.ini
+
