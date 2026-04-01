@@ -1,4 +1,4 @@
-##Donkey Kong Console Game (C++)
+## Donkey Kong Console Game (C++)
 
 This C++ console game is a recreation of the classic "Donkey Kong" arcade game. 
 The game is written using Object-Oriented Programming (OOP) principles. 
